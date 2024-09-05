@@ -1,0 +1,61 @@
+.album-header {
+  display: flex;
+  flex-direction: row;
+  color: #222831;
+
+  .album-header-cover {
+    width: 300px;
+  }
+
+  .album-header-cover-img {
+    border-radius: 5px;
+  }
+
+  .album-header-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 25px;
+    font-weight: 400;
+
+    .album-header-data-description {
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .album-header-data-title {
+      font-size: 26px;
+      font-weight: 600;
+    }
+
+    .album-header-data-info {
+      display: flex;
+      flex-direction: row;
+      margin-top: 18px;
+    }
+
+    .album-header-data-artist,
+    .album-header-data-duration,
+    .album-header-data-number-of-songs,
+    .album-header-data-publication-year {
+      margin-right: 20px;
+    }
+  }
+}
+
+.album-content {
+  margin-top: 30px;
+  .album-content-header {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .album-content-header-number,
+  .album-content-header-title {
+    margin-left: 6px;
+  }
+
+  .album-content-list {
+    font-size: 20px;
+  }
+}
