@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Cool Albums`,
     description: `Project created as a laboratory for Pragma.`,
-    author: `@erickGarcia`,
+    author: `@erickGarcia, @EstebanCrPragma`,
   },
   plugins: [
     `gatsby-plugin-image`,
